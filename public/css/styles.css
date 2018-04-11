@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body {
+	background  : linear-gradient(to right, #12071D, #33011b);
+	font-family : 'Raleway', sans-serif;
+}
+
+h2 {
+	padding    : 2vh 0;
+
+	color      : #57ADC8;
+	text-align : center;
+}
+
+#demo {
+	width         : 75%;
+	margin        : 0 auto;
+
+	color         : #D7706E;
+	text-align    : center;
+	border-radius : 10px;
+}
+
+#demo p {
+	padding           : 2vh 0;
+
+	-webkit-animation : fadein 1s;
+	-moz-animation    : fadein 1s;
+	-ms-animation     : fadein 1s;
+	-o-animation      : fadein 1s;
+	animation         : fadein 1s;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
